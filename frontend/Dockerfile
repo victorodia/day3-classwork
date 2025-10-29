@@ -10,6 +10,6 @@ RUN npm install
 #copy all the files
 COPY . .
 #expose the preferred port
-EXPOSE 3001
+EXPOSE 9000
 #run the node.js application
 CMD [ "npm", "start" ]
